@@ -41,6 +41,7 @@ body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   font-weight: 500;
+  background-color: #222;
 }
 
 ul {
@@ -51,6 +52,7 @@ ul {
 
 a {
   text-decoration: none;
+  color: rgb(255, 157, 157);
 }
 
 img {
@@ -288,6 +290,7 @@ img {
   grid-template-rows: 4rem 1fr;
   z-index: 0;
   box-sizing: border-box;
+  background-color: rgb(0, 0, 0);
 }
 
 .hosgeldin::after {
@@ -416,7 +419,7 @@ img {
 
 h2 {
   border-bottom: solid 2px;
-  border-color: var(--dark-color);
+  border-color: rgb(131, 2, 2);
 }
 .footer-copyright {
   grid-column-start: 1;
@@ -508,12 +511,17 @@ h2 {
   padding-top: 30px;
 }
 
+h1,
+h2,
+p {
+  color: aliceblue;
+}
+
 h1 {
   text-align: center;
   font-size: 3rem;
   margin: 0;
   line-height: 0;
-
   animation: glitch1 3.5s infinite;
 }
 
